@@ -1,5 +1,3 @@
-
-
 # NIKOLAY RASSKAZOV
 ## MY CONTACT INFO
 + Adres: Russian Federation Moskow 
@@ -12,8 +10,8 @@ I am currently working as a refrigeration technician. I have long dreamed of tes
 + Markdown
 + VC Code
 ## CODE EXAMPLE
-```
-<!DOCTYPE html>
+```htm
+ <!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
