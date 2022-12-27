@@ -1,3 +1,106 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	/*outline: none;*/
+}
+
+a:focus,
+a:active {
+	/* outline: none;*/
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    /* color: inherit; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover  {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
 /* inter-regular - latin */
 @font-face {
     font-family: 'Inter';
@@ -26,6 +129,58 @@
          url('../fonts/inter-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
-  html{box-sizing: border-box;}
-  *,*::before, *::after{
-    box-sizing: inherit;}
+  html{
+    box-sizing: border-box;
+  }
+
+
+
+    .body{width: 100%; 
+      height: 3870px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color:#636060;
+    }
+    .wapper{
+      max-width: 1222px;
+      margin: 0 auto;}
+/* header logo nav start*/
+    .header{color: #010201;
+    width: 100%;
+    height: 3.466%;
+  background: #EDF2EC;}
+    
+    
+      .header_logo{display: flex;
+      margin-left: 0;top: 42px;
+    }
+
+      .header_wapper{
+      padding: 42px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;}
+      
+      .header_nav{margin-right: 0;}
+
+
+
+      .header_list{margin-right: 0px;
+        display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+    }
+
+    .header_item{display: flex;
+      flex-wrap: wrap;
+      align-content: flex-end;
+      margin-right: 46px;}
+    .header_item:last-child{margin-right: 0;}
+     
+    .header_link:hover, .header_link:focus, .header_link:active {opacity: .75;}
+    /* header logo nav end*/
+  
