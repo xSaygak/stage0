@@ -1,106 +1,3 @@
-/* Reset and base styles  */
-* {
-	padding: 0px;
-	margin: 0px;
-	border: none;
-}
-
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-}
-
-:focus,
-:active {
-	/*outline: none;*/
-}
-
-a:focus,
-a:active {
-	/* outline: none;*/
-}
-
-/* Links */
-
-a, a:link, a:visited  {
-    /* color: inherit; */
-    text-decoration: none;
-    /* display: inline-block; */
-}
-
-a:hover  {
-    /* color: inherit; */
-    text-decoration: none;
-}
-
-/* Common */
-
-aside, nav, footer, header, section, main {
-	display: block;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    font-size: inherit;
-	font-weight: inherit;
-}
-
-ul, ul li {
-	list-style: none;
-}
-
-img {
-	vertical-align: top;
-}
-
-img, svg {
-	max-width: 100%;
-	height: auto;
-}
-
-address {
-  font-style: normal;
-}
-
-/* Form */
-
-input, textarea, button, select {
-	font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
-}
-
-input::-ms-clear {
-	display: none;
-}
-
-button, input[type="submit"] {
-    display: inline-block;
-    box-shadow: none;
-    background-color: transparent;
-    background: none;
-    cursor: pointer;
-}
-
-input:focus, input:active,
-button:focus, button:active {
-    outline: none;
-}
-
-button::-moz-focus-inner {
-	padding: 0;
-	border: 0;
-}
-
-label {
-	cursor: pointer;
-}
-
-legend {
-	display: block;
-}
-
 /* inter-regular - latin */
 @font-face {
     font-family: 'Inter';
@@ -144,14 +41,14 @@ legend {
       line-height: 30px;
       color:#636060;
     }
-    .wapper{
-      max-width: 1222px;
-      margin: 0 auto;}
+
+
 /* header logo nav start*/
-    .header{color: #010201;
+    .header{
+    color: #010201;
     width: 100%;
-    height: 3.466%;
-  background: #EDF2EC;}
+    height: 3.47%;
+    background: #EDF2EC;}
     
     
       .header_logo{display: flex;
@@ -169,13 +66,15 @@ legend {
 
 
 
-      .header_list{margin-right: 0px;
+      .header_list{
+        margin-right: 0px;
         display: flex;
       flex-wrap: wrap;
       align-content: flex-end;
     }
 
-    .header_item{display: flex;
+    .header_item{ 
+      display: flex;
       flex-wrap: wrap;
       align-content: flex-end;
       margin-right: 46px;}
@@ -184,3 +83,74 @@ legend {
     .header_link:hover, .header_link:focus, .header_link:active {opacity: .75;}
     /* header logo nav end*/
   
+
+    .main{
+    }
+
+
+   /* intro info logo h1 start*/
+
+
+    .section_intro{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    background-color: #EDF2EC;
+  }
+
+   
+  .intro_logo{
+    margin-left: 6.34%;
+    margin-top: 3.73%;
+   }
+
+   .intro_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5.7%;
+    margin-left: 13.02%;
+    margin-right: 0px;
+    max-width: 549px;
+    max-height: 340px;
+    }
+   .into_h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .h1_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #499A18;
+    }
+
+    .intro_title{
+      margin-top: 7.65%;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 35px;
+      color: #636060;}
+       
+      .intro_learn_more{ 
+        box-sizing: border-box;
+        border: 2px solid #E06733;
+        border-radius: 10px;
+        padding: 14px 27px;
+        margin-top: 3.64%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+      }
+
+      /* intro info logo h1 end*/
