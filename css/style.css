@@ -435,3 +435,22 @@
   
   
                 /* contact block end*/
+
+                 /* block footer */
+              .footer{
+                box-sizing: border-box;
+                width: 1440px;
+                height: 130px;
+                background: #FFFFFF;
+                display: flex;
+                flex-wrap: wrap;
+                }
+  
+                .footer_data{
+                
+                display: inline;
+                justify-content: space-between;
+                align-content: center;
+                
+                }
+              /* block footer  end*/
