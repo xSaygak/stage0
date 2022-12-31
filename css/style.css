@@ -154,3 +154,57 @@
       }
 
       /* intro info logo h1 end*/
+      
+      
+      /* info start*/
+      .section_info{
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        background: #FFFFFF;
+        width: 100%;;
+        }
+        .info{width: 100%;
+          height: 479px;
+        }
+
+          .info_text{
+            margin-top: 11.74%;
+            margin-left: 6.4%;
+            width: 605px;
+            height: 350px;
+          }
+
+          
+          .info_text_h2{
+            width: 463px;
+            height: 102px;
+            font-family: 'Inika';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 52px;
+            color: #499A18;
+            }
+
+            .text_h2_marker{
+            color: #E06733;
+            }
+
+            .ifo_text_h2_sub{ 
+              margin-top: 40px;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 30px;
+              color: #636060;
+              width: 605px;
+              height: 208px;
+            }
+
+          .info_text_logo{
+            margin-left: 6.84%;
+            margin-top: 6.4%;
+          } 
+          /*info end*/
