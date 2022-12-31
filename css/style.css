@@ -296,3 +296,114 @@
                     color: #E06733;
                   }
                   /* Servis block end */
+
+                  /* Price block start */
+
+                  .prices{
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    background: #FFFFFF;
+                  }
+
+                  .prices_wrapper{
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: 7.85%;
+                    margin-top: 2.88%;
+                  }
+
+                  .prices_h2{
+                    margin-left: 109px;
+                    margin: 0;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-family: 'Inter';
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    color: #000000;
+                  }
+
+                  .prices_item{
+                    flex-direction: column;
+                    border: 1px solid #E3E1D5;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-top: 40px;
+                  }
+                    
+
+                  .prises_item_list{
+                  box-sizing: border-box;
+                  width: 332px;
+                  height: 282.01px;
+                }
+
+                  .price_form{
+                    margin: 42px 41px;
+                     padding: 16px 110px 16px 40px;
+                    background: #EDF2EC;
+                    border-radius: 20px;
+                }
+
+                  .prices_item_text{
+                   
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 20px;
+                    color: #000000;
+                  }
+
+                  .contact_use{
+                  margin: 2.7% 109px 0 auto;
+                  display: flex;
+                  flex-direction: column;
+                  flex-wrap: wrap;
+                  }
+
+            .contact_text{
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 40px;
+              line-height: 50px;
+            } 
+
+            .contact_text_title {
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 40px;
+              line-height: 50px;
+              text-align: right;
+              color: #499A18;
+            }
+            
+            .contact_us{ 
+              margin-top: 38px;
+              margin-left: auto;
+              margin-right: 0;
+              padding: 12px 32px;
+              border: 1px solid #E06733;
+              border-radius: 5px;
+              font-family: 'Inika';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 26px;
+              text-align: center;
+              color: #E06733;
+              }
+
+              .image_contact_us{
+                margin: 39px 0px 0px auto;
+              }
+              
+              
+              /* Price block end */
