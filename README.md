@@ -1,1 +1,1 @@
-#https://xSaygak.github.io/rsschool-cv/cv
+#https://xSaygak.github.io/rsschool-plants/plants
