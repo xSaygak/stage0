@@ -1,0 +1,542 @@
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-900 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/inter-v12-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/inter-v12-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html{
+}
+
+
+
+  .body{
+    max-width: 1900px;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+    margin: auto;
+  }
+
+
+
+/* header logo nav start*/
+  .header{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  color: #010201;
+  width: 100%;
+  background: #EDF2EC;
+  }
+  
+  .wapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+    .header_wapper{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    }
+    
+  
+    .header_logo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8.54% 7.67%;
+  }
+
+    
+    .header_nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin:8.54% 7.67% auto auto;}
+
+
+
+    .header_list{text-decoration: none;
+    margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+  }
+
+  .header_item{ 
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-right: 46px;}
+
+    .header_link{
+    text-decoration: none;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+    
+    }
+
+  .header_item:last-child{margin-right: 0;}
+   
+  .header_link:hover, .header_link:focus, .header_link:active {opacity: .75; color: #E06733;}
+  /* header logo nav end*/
+
+
+  .main{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+
+   /* intro info logo h1 start*/
+
+
+    .section_intro{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    background-color: #EDF2EC;
+  }
+
+   
+  .intro_logo{
+    margin: 3.73% ;
+   }
+
+   .intro_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3.73%  6.34% auto auto;
+    max-width: 549px;
+    max-height: 340px;
+    }
+   .into_h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .h1_title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #499A18;
+    }
+
+    .intro_title{
+      margin-top: 7.65%;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 35px;
+      color: #636060;}
+       
+      .intro_learn_more{ 
+        box-sizing: border-box;
+        border: 2px solid #E06733;
+        border-radius: 10px;
+        padding: 14px 27px;
+        margin-top: 3.64%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+      }
+
+      /* intro info logo h1 end*/
+
+      
+
+      /* info start*/
+      .section_info{
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      background: #FFFFFF;
+      width: 100%;;
+      }
+      .info{width: 100%;
+        height: 479px;
+      }
+
+        .info_text{
+          margin-top: 11.74%;
+          margin-left: 6.34%;
+          width: 605px;
+          height: 350px;
+        }
+
+        
+        .info_text_h2{
+          width: 463px;
+          height: 102px;
+          font-family: 'Inika';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 52px;
+          color: #499A18;
+          }
+
+          .text_h2_marker{
+          color: #E06733;
+          }
+
+          .ifo_text_h2_sub{ 
+            margin-top: 40px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #636060;
+            width: 605px;
+            height: 208px;
+          }
+
+        .info_text_logo{
+          margin: 3.73%  6.34% auto auto;
+        } 
+        /*info end*/
+        
+        /* servis block start*/
+        .servis{
+          box-sizing: border-box;
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          background: #EDF2EC;}
+
+          .servis_nav{
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin:0 6.34% 0 6.34%;}
+            
+            .servis_nav_text{
+            
+            display: flex;
+            flex-wrap: wrap;  
+            margin-left: 6.34%;
+            width: auto;
+            height: auto;
+            font-family: 'Inika';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 52px;
+            color: #499A18;}
+
+            .servis_list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 5.03% 6.34% auto auto;
+            }
+            
+              
+            .servis_item{
+              margin-right: 38px;
+              justify-content: space-between;
+              border: 2px solid #E06733;
+              border-radius: 10px;
+              width: 161px;
+              height: 50px;
+              font-family: 'Inika';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 26px;
+              text-align: center;
+              color: #E06733;
+              }
+              .servis_item:last-child{margin-right: 0}
+              .servis_item:hover, .header_link:focus, .header_link:active {opacity: .55;}
+
+              .servis_imags {
+                box-sizing: border-box;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                margin: 2.38% 3.47% auto 3.47%;
+                width: 100%;
+                }
+
+              .servis_imags_logo{
+                margin: 3.88% 3%;
+                flex-direction: column;
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                font-family: 'Inter';
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #717171;
+                border: 1px solid #E3E1D5;
+                border-radius: 20px 20px 20px 20px;
+                }
+                .img_titl{
+                  font-family: 'Inter';
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 20px;
+                  color: #E06733;
+                }
+                /* Servis block end */
+
+                /* Price block start */
+
+                .prices{
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-wrap: wrap;
+                  width: 100%;
+                  background: #FFFFFF;
+                }
+
+                .prices_wrapper{
+                  box-sizing: border-box;
+                  display: flex;
+                  flex-wrap: wrap;
+                  margin-left: 7.85%;
+                  margin-top: 2.88%;
+                  margin-bottom: 12.2%;
+                }
+
+                .prices_h2{
+                  margin-left: 109px;
+                  margin: 0;
+                  font-family: 'Inter';
+                  font-style: normal;
+                  font-family: 'Inter';
+                  font-size: 40px;
+                  font-weight: 700;
+                  line-height: 48px;
+                  color: #000000;
+                }
+
+                .prices_item{
+                  flex-direction: column;
+                  border: 1px solid #E3E1D5;
+                  border-radius: 20px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  margin-top: 40px;
+                }
+                  
+
+                .prises_item_list{
+                box-sizing: border-box;
+                width: 332px;
+                height: 282.01px;
+              }
+
+                .price_form{
+                  margin: 42px 41px;
+                   padding: 16px 110px 16px 40px;
+                  background: #EDF2EC;
+                  border-radius: 20px;
+              }
+
+                .prices_item_text{
+                 
+                  font-family: 'Inter';
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 20px;
+                  line-height: 20px;
+                  color: #000000;
+                }
+
+                .contact_use{
+                margin: 2.7% 109px 0 auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                }
+
+          .contact_text{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+          } 
+
+          .contact_text_title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            text-align: right;
+            color: #499A18;
+          }
+          
+          .contact_us{ 
+            margin-top: 38px;
+            margin-left: auto;
+            margin-right: 0;
+            padding: 12px 32px;
+            border: 1px solid #E06733;
+            border-radius: 5px;
+            font-family: 'Inika';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            color: #E06733;
+            }
+
+            .image_contact_us{
+              margin: 39px 0px 0px auto;
+            }
+            
+            
+            /* Price block end */
+
+            /*contact block start*/
+            .contact_us2{
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            background: #EDF2EC;
+            width: 100%;
+            }
+
+            .contact_us2_h2{
+              flex-direction: column;
+              align-items: center;
+              display: flex;
+              margin: 60px auto;
+              
+            }
+
+            .contact_us2_img{
+            margin: 53px 0 auto 109px;
+            }
+
+            .contact_us2{
+            font-family: 'Inika';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 40px;
+              line-height: 52px;
+              color: #499A18;
+              background: #D6E7D2;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              border-radius: 0px;
+            }
+
+            .contact_us2_form{height: 50px;
+              width: 450px;
+              display: flex;
+              flex-wrap: wrap;
+              margin: 148px 109px auto auto;
+              
+              }
+
+
+            /* contact block end*/
+
+
+            /* block footer */
+            .footer{
+            box-sizing: border-box;
+            width: 100%;
+            height: 130px;
+            background: #FFFFFF;
+            display: flex;
+            flex-wrap: wrap;
+            }
+
+
+            .footer_content{
+              width: 100%;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 20px;
+              line-height: 50px;
+              color: #000000;
+              display: flex;
+              flex-wrap: wrap;
+              margin: 40px 109px;
+            justify-content: space-between;}
+
+            .footer_data{
+            display: flex;
+            margin: 40px;
+            
+            }
+
+            .footer_rcschool{
+              display: flex;
+              margin:40px auto;
+              
+            }
+
+            .footer_social{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 40px 0 40px auto;
+
+            }
+
+            .footer_link{
+              text-decoration: none;
+              font-family: 'Inika';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 50px;
+              color: #010201;}
+
+            .footer_link:hover, .footer_link:focus, .footer_link:active {opacity: .75; color: #E06733;}
+          /* block footer  end*/
+
